@@ -1,0 +1,19 @@
+.main__left
+	.main__left-header-block
+		.main__left-header-pic
+			img(src='img/pad-mini.png')
+			img(src='img/mac.png')
+		.main__left-header-text
+			h3 Lorem Ipsum is simply #[br] cssauthor.com
+			p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+			.button-slider
+				button.button.button__left
+				button.button.button__right
+	.main__left-articles
+			each val in articles
+				.main__left-item
+					h4=val.artTitle
+					p.date=val.date
+					p.author=val.author
+					p.text=val.text
+

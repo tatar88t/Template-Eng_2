@@ -1,0 +1,22 @@
+body{
+	background: #282828;
+	h1, h2, h3, h4, h5, h6{
+		margin: 0;
+		font-family: 'Heebo', Sans-serif;
+		font-weight: 300;
+		line-height: 100%;
+	}
+	p, a{
+		font-family: 'Heebo', Sans-serif;
+		line-height: 100%;
+	}
+}
+.page{
+	max-width: 1500px;
+	background: #fff;
+	margin: 0 auto;
+}
+.page__content{
+	max-width: 1024px;
+	margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+.topic{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 117px;
+}
+.topic__left{
+	margin-top: 70px;
+	h1{
+		font-size: 44px;
+		color: #5d5d5d;
+		
+	}
+	h2{
+		font-size: 33px;
+		color: #5d5d5d;
+		margin-top: 12px;
+		margin-bottom: 20px;
+		
+	}
+	a {
+		background: #373737;
+		text-decoration: none;
+		color: #fff;
+		padding: 5px 16px 4px 57px;
+		font-size: 18px;
+		font-weight: 400;
+		position: relative;
+		&:before{
+			content: url('img/camera.png');
+			position: absolute;
+			width: 34px;
+			height: 16px;
+			left: 14px;
+		}
+	}
+}
+.topic__right{
+	margin-right: -130px;
+}

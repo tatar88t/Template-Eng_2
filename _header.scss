@@ -1,0 +1,48 @@
+.header{
+	display: flex;
+	justify-content: space-between;
+	max-height: 120px;
+	border-bottom: 1px solid #e5e5e5;
+
+}
+.header__logo{
+	p{
+		font-family: Trebuchet MS;
+		font-size: 36px;
+
+	}
+	span{
+		color: #595959;
+		position: relative;
+		&:after{
+			position: absolute;
+			content:'';
+			width:23px;
+			height: 23px;
+			background: #6dd025;
+			border-radius: 50%;
+			top: 12px;
+			left: 74px;
+		}
+
+	}
+}
+.header__nav{
+	a{
+		margin-right: 25px;
+		text-decoration: none;
+		color: #323332;
+		font-weight: 300;
+		line-height: 120px;
+		font-size: 17px;
+		width: 100px;
+		height: 40px;
+		padding: 11px 25px 12px 20px;
+	&:hover{
+		background: #373737;
+		color: #fff;
+		transition: .5s;
+	}
+	}
+
+}

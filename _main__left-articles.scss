@@ -1,0 +1,34 @@
+.main__left-articles{
+	display: grid;	
+	max-width: 700px;
+	background: #fff; 
+
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.main__left-item{
+	font-weight: 300;
+	margin-right: 16px;
+	h4{
+		font-size: 24px;
+		margin-bottom: 12px;
+		margin-top: 36px;
+		color:#696161;
+
+	}
+	p{
+		margin:0;
+		font-size: 14px;
+		color:#848484;
+	}
+	.date{
+		margin-bottom: 19px;
+		display: inline-block;
+	}
+	.author{
+		display: inline-block;
+	}
+	.text{
+		margin-bottom: 52px;
+	}
+}
